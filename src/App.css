@@ -28,6 +28,31 @@
   color: #61dafb;
 }
 
+.app {
+  display: flex;
+}
+
+.menu {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
